@@ -1,20 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <class>Webclient</class>
- <widget class="QWidget" name="Webclient" >
-  <property name="geometry" >
+ <widget class="QWidget" name="Webclient">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
-    <height>300</height>
+    <width>585</width>
+    <height>488</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>Webclient</string>
   </property>
+  <widget class="QPushButton" name="Button">
+   <property name="geometry">
+    <rect>
+     <x>460</x>
+     <y>20</y>
+     <width>99</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Aufrufen</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Adresse">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>391</width>
+     <height>32</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>521</width>
+     <height>331</height>
+    </rect>
+   </property>
+  </widget>
  </widget>
- <layoutDefault spacing="6" margin="11" />
- <pixmapfunction></pixmapfunction>
+ <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections/>
 </ui>
